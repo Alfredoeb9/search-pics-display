@@ -1,16 +1,26 @@
 import React from 'react';
-import Navigation from './components/Navigation';
-import Main from './components/Main';
+import Aggregate from './components/Aggregate';
+import Filter from './components/Filter';
+import Playlist from './components/Playlist';
 
-
-function App() {
-  return (
-    <div>
-      <Navigation />
-      <Main />
-    </div>
-    
-  )
+class App extends React.Component {
+  render() {
+    return (
+      <div style={{ textAlign:"center"}}>
+        <h1>Better Playlist</h1>
+        <Aggregate />
+        <Aggregate />
+        <Filter />
+        <div className="playlist">
+          <Playlist />
+          <Playlist />
+          <Playlist />
+          <Playlist />
+        </div>
+      </div>
+      
+    )
+  }
 }
 
 export default App;
