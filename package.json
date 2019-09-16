@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "react-pratice",
-=======
-  "name": "pics",
->>>>>>> 0c69c916d2eb1032ecb64049a46f62aae3f01476
   "version": "0.1.0",
   "private": true,
   "dependencies": {
